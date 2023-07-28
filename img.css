@@ -1,0 +1,30 @@
+.h1style{
+    color:rgb(255, 0, 0);
+    text-align:center;
+    font-family:lucida handwriting;
+    font-style:italic;
+    font-size:90px;
+}
+.hpy1, .hpy2, .hpy3, .hpy4{
+    width: 200px;
+    height: 170px;
+    border-radius: 20px;
+    border: 10px solid rgb(174, 173, 173);
+}
+.hpy1:hover, .hpy2:hover,.hpy3:hover,.hpy4:hover, .vdo:hover{
+    border-color:rgb(59, 59, 59) ;
+    transform: scale(1.1);
+}
+.grid{
+    display: flex;
+}
+.hpy2, .hpy4{
+    margin-left: 1040px;    
+}
+.vdo{
+    border-radius: 20px;
+    border: 10px solid rgb(174, 173, 173);
+    margin-left: 500px;
+    width: 400px;
+    height: 200px;
+}
